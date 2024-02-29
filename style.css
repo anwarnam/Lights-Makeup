@@ -1,0 +1,115 @@
+* {
+    margin: 0 auto;
+}
+body {
+    background-color: #F7E1EE;
+    margin: 0 auto;
+}
+.navbar {
+    position: fixed;
+    z-index: 2;
+    width: 95%;
+    border-radius: 15px;
+    background-color: transparent !important;
+    backdrop-filter: blur(4px);
+    display: flex;
+    text-align: center;
+    padding-left: 70px;
+    
+}
+.navbar a {
+    color: #F7E1EE;
+}
+.navbar li a {
+    color: #F7E1EE;
+}
+.home {
+   background:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)) ,url(./images/hero.jpg);
+   background-size: cover;
+   height: 500px;
+   border-bottom-left-radius: 30px;
+   border-bottom-right-radius: 30px ;
+   
+}
+.d-flex .form-control {
+    border-radius: 15px;
+    background-color: transparent;
+    border-color:#F7E1EE;
+    transition: 600ms;
+}
+.d-flex .form-control:hover {
+    border-color: pink;
+    color: pink !important;
+    box-shadow: pink;
+}
+.d-flex .form-control:active {
+    box-shadow: rgb(182, 63, 83) !important;
+    background-color: #F7E1EE;
+}
+.d-flex .btn {
+    border-color: #F7E1EE;
+    color: #F7E1EE;
+    
+}
+.d-flex .btn:hover {
+    background-color: rgb(194, 103, 118);
+    color: #F7E1EE;
+    
+}
+.shop-wishful {
+    display: flex;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    justify-content: center !important;
+    align-items: center !important;
+    background-color: #f5cfe5;
+}
+.shop-wishful h3 {
+    width: 50%;
+    margin-left: 200px;
+    color: #5C4B75;
+  
+}
+.shop-wishful .btn {
+    margin-right: 250px;
+    border-color: #5C4B75;
+    width:150px ;
+    height: 60px;
+    transition: 400ms;
+}
+.shop-wishful .btn:hover {
+    background-color: #5C4B75;
+    
+}
+.card {
+    margin-top: 20px;
+    height: 500px;
+    margin-bottom: 20px;
+    margin-left: -50px;
+} 
+.card .btn {
+    background-color: #5c4b5c;
+    transition: 600ms;
+    border-color: transparent;
+}
+.card .btn:hover {
+    outline-color: transparent;
+    outline-style:solid;
+    box-shadow: 0 0 0 4px #5C4B75;
+}
+.card {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+      width: 100%;
+      
+    }
+    .card {
+        margin-left: 100px;
+    }
+  }
